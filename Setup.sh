@@ -25,11 +25,14 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo usermod -aG docker vietanh
 
+# Install network-tools
+sudo apt install net-tools
+
 # install git
 sudo apt install git -y
 
 # Install Telegram
-sudo apt install telegram-desktop
+sudo apt install telegram-desktop -y
 
 # Install Skype
 sudo snap install skype --classic
