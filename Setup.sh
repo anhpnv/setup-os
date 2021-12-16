@@ -7,7 +7,7 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install code -y
 
-# docker setup
+# Docker setup
 sudo apt-get update
  
 sudo apt-get install \
@@ -39,10 +39,13 @@ sudo snap install intellij-idea-community --classic
 
 # Install Shutter
 sudo add-apt-repository -y ppa:linuxuprising/shutter
-sudo apt install shutter
+sudo apt install shutter -y
 
 # Install Skype
 sudo snap install skype --classic
+
+# Install Terminator
+sudo apt install terminator -y
 
 # Setup python enviroment
 sudo apt install python3-venv build-essential libssl-dev libffi-dev python3-dev -y

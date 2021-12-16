@@ -9,6 +9,7 @@ Setup when re-install new OS
 7. Ibus-unikey
 8. IntelliJ
 9. Shutter - Snapshot screen app
+10. Terminator
 ```bash
 chmod +x Setup.sh
 ./Setup.sh
