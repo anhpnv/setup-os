@@ -8,6 +8,7 @@ Setup when re-install new OS
 6. Python3 Dev
 7. Ibus-unikey
 8. IntelliJ
+9. Shutter - Snapshot screen app
 ```bash
 chmod +x Setup.sh
 ./Setup.sh

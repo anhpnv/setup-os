@@ -37,6 +37,10 @@ sudo apt install telegram-desktop -y
 # Install IntelliJ
 sudo snap install intellij-idea-community --classic
 
+# Install Shutter
+sudo add-apt-repository -y ppa:linuxuprising/shutter
+sudo apt install shutter
+
 # Install Skype
 sudo snap install skype --classic
 
