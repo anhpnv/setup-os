@@ -10,6 +10,8 @@ Setup when re-install new OS
 8. IntelliJ
 9. Shutter - Snapshot screen app
 10. Terminator
+11. Anydesk
+12. Teamviewer
 ```bash
 chmod +x Setup.sh
 ./Setup.sh
