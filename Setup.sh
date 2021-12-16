@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# clone vscode
+# Clone vscode
 sudo apt update
 sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
@@ -23,16 +23,19 @@ echo \
 $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
-sudo usermod -aG docker vietanh
+sudo usermod -aG docker $USER
 
 # Install network-tools
 sudo apt install net-tools
 
-# install git
+# Install git
 sudo apt install git -y
 
 # Install Telegram
 sudo apt install telegram-desktop -y
+
+# Install IntelliJ
+sudo snap install intellij-idea-community --classic
 
 # Install Skype
 sudo snap install skype --classic
@@ -45,5 +48,5 @@ sudo apt install ibus-unikey -y
 ibus restart
 
 # Update package again
-sudo apt update
-sudo apt upgrade
+# sudo apt update
+# sudo apt upgrade
