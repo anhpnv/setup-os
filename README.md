@@ -9,6 +9,6 @@ Setup when re-install new OS
 7. Ibus-unikey
 8. IntelliJ
 ```bash
-$ chmod +x Setup.sh
-$ ./Setup.sh
+chmod +x Setup.sh
+./Setup.sh
 ```
