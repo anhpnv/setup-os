@@ -32,7 +32,7 @@ sudo apt install net-tools
 sudo apt install git -y
 
 # Install Telegram
-sudo apt install telegram-desktop -y
+sudo snap install telegram-desktop
 
 # Install IntelliJ
 sudo snap install intellij-idea-community --classic
