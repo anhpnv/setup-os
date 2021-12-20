@@ -16,3 +16,8 @@ Setup when re-install new OS
 chmod +x Setup.sh
 ./Setup.sh
 ```
+# Alias
+Set Alias for docker-compose:
+1. dockcomdown: 'docker-compose down -v'
+2. dockcomup: 'docker-compose up -d'
+3. dockcomlog: 'docker-compose logs -f'
