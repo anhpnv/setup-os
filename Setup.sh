@@ -24,6 +24,7 @@ $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo usermod -aG docker $USER
+sudo apt install docker-compose -y
 
 # Install network-tools
 sudo apt install net-tools
