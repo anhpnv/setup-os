@@ -12,6 +12,7 @@ Setup when re-install new OS
 10. Terminator
 11. Anydesk
 12. Teamviewer
+13. Chrome
 ```bash
 chmod +x Setup.sh
 ./Setup.sh
