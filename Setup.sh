@@ -64,6 +64,10 @@ sudo apt install python3-venv build-essential libssl-dev libffi-dev python3-dev 
 # Setup Unikey
 sudo apt install ibus-unikey -y
 ibus restart
+# Gooogle-Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
 
 # Update package again
 # sudo apt update
